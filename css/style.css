@@ -8,11 +8,19 @@
 @import url(components/status-bar.css);
 @import url(components/nav-bar.css);
 @import url(components/screen-header.css);
+@import url(components/user-component.css);
+@import url(components/badge.css);
 
 /* Screens */
 @import url(screens/login.css);
+@import url(screens/firends.css);
 
 body {
     font-family: 'Akshar', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
+    color: #2e363e;
+}
+
+.main-screen {
+    padding: 0px 20px;
 }
