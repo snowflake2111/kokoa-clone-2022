@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat - Kokoa Clone</title>
+    </head>
+    <body id="chat-screen">
+        <!-- 스타투스바 -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>12:30</span>
+            </div>
+            <div class="status-bar__column">
+                <span>222%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <!-- alt 헤더 -->
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa-solid fa-angle-left fa-3x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">박에녹</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+                <span><i class="fa-solid fa-bars fa-2x"></i></span>
+            </div>
+        </header>
+
+        <!-- 메인스크린 -->
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">
+                2022년 4월 27일 수요일
+            </div>
+            <div class="message-row"> 
+                <img src="image/avata2.png" />
+                <div class="message-row__content">
+                    <span class="message__author">박에녹</span>
+                    <div class="message__info">
+                        <span class="message__bubble">송이 귀여워.</span>
+                        <span class="message__time">12:30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">인정</span>
+                        <span class="message__time">12:31</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 입력창 -->
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="메시지를 입력해 주세요...">
+                <i class="fa-regular fa-face-grin fa-lg"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-lg"></i>
+                </button>
+            </div>
+        </form>
+
+        <!-- 스크립트 -->
+        <script 
+            src="https://kit.fontawesome.com/7d41e1d30d.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,9 +1,10 @@
 .status-bar {
+    top: 0;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
     width: 100%;
-    background-color: white;
+    position: fixed;
 }
 
 .status-bar__column {
